@@ -1,0 +1,86 @@
+2012-12-01 18:06:37,258 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /plugins/jquery-ui-1.8.15/jquery-ui/themes/ui-lightness/jquery-ui-1.8.15.custom.css served by /plugins/jquery-ui-1.8.15/jquery-ui/themes/ui-lightness/jquery-ui-1.8.15.custom.css (delegate: none)
+2012-12-01 18:06:42,572 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:favicon.ico]
+2012-12-01 18:06:42,638 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon.png]
+2012-12-01 18:06:42,664 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:favicon.png]
+2012-12-01 18:06:42,671 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/favicon.png
+2012-12-01 18:06:42,676 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:icon-32.png]
+2012-12-01 18:06:42,679 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/icon-32.png
+2012-12-01 18:06:42,684 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:icon-48.png]
+2012-12-01 18:06:42,686 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/icon-48.png
+2012-12-01 18:06:42,692 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:icon-96.png]
+2012-12-01 18:06:42,694 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/icon-96.png
+2012-12-01 18:06:42,700 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon-57.png]
+2012-12-01 18:06:42,702 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/apple-touch-icon-57.png
+2012-12-01 18:06:42,708 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon-72.png]
+2012-12-01 18:06:42,710 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/apple-touch-icon-72.png
+2012-12-01 18:06:42,716 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon-114.png]
+2012-12-01 18:06:42,718 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/apple-touch-icon-114.png
+2012-12-01 18:06:42,724 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:ios-splash-1024x748.png]
+2012-12-01 18:06:42,726 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/ios-splash-1024x748.png
+2012-12-01 18:06:42,731 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:styleAdmin.css]
+2012-12-01 18:06:42,752 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/styleAdmin.css served by /css/styleAdmin.css (delegate: none)
+2012-12-01 18:06:42,784 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:masterAdmin.css]
+2012-12-01 18:06:42,806 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/masterAdmin.css served by /css/masterAdmin.css (delegate: none)
+2012-12-01 18:06:42,813 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/screen.css served by /css/screen.css (delegate: none)
+2012-12-01 18:06:42,889 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/buttons.css served by /css/buttons.css (delegate: none)
+2012-12-01 18:06:42,923 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/gradients.css served by /css/gradients.css (delegate: none)
+2012-12-01 18:06:42,956 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/prettyPhoto.css served by /css/prettyPhoto.css (delegate: none)
+2012-12-01 18:06:43,197 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/socialnetworks.css served by /css/socialnetworks.css (delegate: none)
+2012-12-01 18:06:43,256 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/abm-buttons/css3buttons.css served by /css/abm-buttons/css3buttons.css (delegate: none)
+2012-12-01 18:06:43,270 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/tipsy/tipsy.css served by /css/tipsy/tipsy.css (delegate: none)
+2012-12-01 18:06:43,303 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/blueprint/src/grid.css served by /css/blueprint/src/grid.css (delegate: none)
+2012-12-01 18:06:43,311 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/blueprint/src/typography.css served by /css/blueprint/src/typography.css (delegate: none)
+2012-12-01 18:06:43,316 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/blueprint/src/print.css served by /css/blueprint/src/print.css (delegate: none)
+2012-12-01 18:06:43,323 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/coda-slider-2.0/coda-slider-2.0.css served by /css/coda-slider-2.0/coda-slider-2.0.css (delegate: none)
+2012-12-01 18:06:43,413 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/nivo-slider/nivo-slider.css served by /css/nivo-slider/nivo-slider.css (delegate: none)
+2012-12-01 18:06:43,441 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/nivo-slider/custom-nivo-slider.css served by /css/nivo-slider/custom-nivo-slider.css (delegate: none)
+2012-12-01 18:06:43,482 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/nivo-zoom/nivo-zoom.css served by /css/nivo-zoom/nivo-zoom.css (delegate: none)
+2012-12-01 18:06:43,541 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:buttonsAdmin.css]
+2012-12-01 18:06:43,561 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/buttonsAdmin.css served by /css/buttonsAdmin.css (delegate: none)
+2012-12-01 18:06:43,606 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:screenAdmin.css]
+2012-12-01 18:06:43,619 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/screenAdmin.css served by /css/screenAdmin.css (delegate: none)
+2012-12-01 18:06:43,629 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:prettyPhotoAdmin.css]
+2012-12-01 18:06:43,633 DEBUG resource.CSSPreprocessorResourceMapper CSS Preprocessor munging ResourceMeta for URI /css/prettyPhotoAdmin.css served by /css/prettyPhotoAdmin.css (delegate: none)
+2012-12-01 18:06:43,663 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/coda-slider-2.0, file:coda-slider-2.0.css]
+2012-12-01 18:06:43,669 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:socialnetworks.css]
+2012-12-01 18:06:43,674 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/blueprint/src, file:grid.css]
+2012-12-01 18:06:43,680 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/blueprint/src, file:typography.css]
+2012-12-01 18:06:43,684 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/nivo-slider, file:custom-nivo-slider.css]
+2012-12-01 18:06:43,689 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/nivo-slider, file:nivo-slider.css]
+2012-12-01 18:06:43,694 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:gradients.css]
+2012-12-01 18:06:44,047 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:logo.png]
+2012-12-01 18:06:44,190 DEBUG resource.ResourceTagLib resolveResourceAndURI: [file:j_spring_security_check]
+2012-12-01 18:06:44,190 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/j_spring_security_check
+2012-12-01 18:06:57,213 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:favicon.ico]
+2012-12-01 18:06:57,214 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon.png]
+2012-12-01 18:06:57,215 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:favicon.png]
+2012-12-01 18:06:57,217 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/favicon.png
+2012-12-01 18:06:57,217 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:icon-32.png]
+2012-12-01 18:06:57,218 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/icon-32.png
+2012-12-01 18:06:57,219 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:icon-48.png]
+2012-12-01 18:06:57,220 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/icon-48.png
+2012-12-01 18:06:57,221 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:icon-96.png]
+2012-12-01 18:06:57,222 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/icon-96.png
+2012-12-01 18:06:57,222 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon-57.png]
+2012-12-01 18:06:57,223 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/apple-touch-icon-57.png
+2012-12-01 18:06:57,224 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon-72.png]
+2012-12-01 18:06:57,225 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/apple-touch-icon-72.png
+2012-12-01 18:06:57,225 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:apple-touch-icon-114.png]
+2012-12-01 18:06:57,227 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/apple-touch-icon-114.png
+2012-12-01 18:06:57,227 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:ios-splash-1024x748.png]
+2012-12-01 18:06:57,228 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/img/ios-splash-1024x748.png
+2012-12-01 18:06:57,229 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:styleAdmin.css]
+2012-12-01 18:06:57,229 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:masterAdmin.css]
+2012-12-01 18:06:57,230 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:buttonsAdmin.css]
+2012-12-01 18:06:57,231 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:screenAdmin.css]
+2012-12-01 18:06:57,231 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:prettyPhotoAdmin.css]
+2012-12-01 18:06:57,232 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/coda-slider-2.0, file:coda-slider-2.0.css]
+2012-12-01 18:06:57,232 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:socialnetworks.css]
+2012-12-01 18:06:57,233 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/blueprint/src, file:grid.css]
+2012-12-01 18:06:57,234 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/blueprint/src, file:typography.css]
+2012-12-01 18:06:57,234 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/nivo-slider, file:custom-nivo-slider.css]
+2012-12-01 18:06:57,235 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css/nivo-slider, file:nivo-slider.css]
+2012-12-01 18:06:57,235 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:css, file:gradients.css]
+2012-12-01 18:06:57,243 DEBUG resource.ResourceTagLib resolveResourceAndURI: [dir:img, file:logo.png]
+2012-12-01 18:06:57,246 DEBUG resource.ResourceTagLib resolveResourceAndURI: [file:j_spring_security_check]
+2012-12-01 18:06:57,247 WARN resource.ResourceTagLib Invocation of <r:resource> for a resource that apparently doesn't exist: /Apolo/j_spring_security_check
