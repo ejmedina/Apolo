@@ -61,7 +61,7 @@ grails.hibernate.cache.queries = false
 
 environments {
     development {
-        grails.logging.jul.usebridge = true
+        grails.logging.jul.usebridge = false
     }
     production {
         grails.logging.jul.usebridge = false
@@ -70,22 +70,36 @@ environments {
 }
 
 // log4j configuration
-log4j = {
-    // Example of changing the log pattern for the default console appender:
-    //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
+// log4j configuration
+  log4j = {
+        appenders {
+            rollingFile name: 'fileLog',
+            file: 'logs/full.log',
+            maxFileSize: 26214400,
+            maxBackupIndex: 10,
+            layout: pattern(conversionPattern: '%d{yyyy-MM-dd HH:mm:ss,SSS} %p %c{2} %m%n')
+        }
+        root {
+             error()
+             additivity = true
+        }
+        error  'org.codehaus.groovy.grails.web.servlet',  //  controllers
+               'org.codehaus.groovy.grails.web.pages' //  GSP
 
-    error  'org.codehaus.groovy.grails.web.servlet',        // controllers
-           'org.codehaus.groovy.grails.web.pages',          // GSP
-           'org.codehaus.groovy.grails.web.sitemesh',       // layouts
-           'org.codehaus.groovy.grails.web.mapping.filter', // URL mapping
-           'org.codehaus.groovy.grails.web.mapping',        // URL mapping
-           'org.codehaus.groovy.grails.commons',            // core / classloading
-           'org.codehaus.groovy.grails.plugins',            // plugins
-           'org.codehaus.groovy.grails.orm.hibernate',      // hibernate integration
-           'org.springframework',
-           'org.hibernate',
-           'net.sf.ehcache.hibernate'
+    debug fileLog:'grails.app'
+
+    warn 'org.mortbay.log'
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.password.algorithm='SHA-256'
+grails.plugins.springsecurity.anon.userAttribute = 'sss, ROLE_ANONYMOUS'
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'ar.com.goliath.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'ar.com.goliath.UserRole'
+grails.plugins.springsecurity.authority.className = 'ar.com.goliath.Role'
+grails.plugins.springsecurity.requestMap.className = 'ar.com.goliath.Requestmap'
+grails.plugins.springsecurity.securityConfigType = grails.plugins.springsecurity.SecurityConfigType.Requestmap
+//token
+grails.plugins.springsecurity.rememberMe.persistent = true
+grails.plugins.springsecurity.rememberMe.persistentToken.domainClassName = 'ar.com.goliath.PersistToken'
