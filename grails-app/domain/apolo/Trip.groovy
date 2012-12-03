@@ -7,13 +7,15 @@ class Trip {
 	String departure
 	String arrival
 	Date startDate
-	Date estimatedEndDate
 	Date endDate
 	long duration
 	long distanceCovered
 	float [] coordinates
-	//static hasOne = [driver:Driver,vehicle:Vehicle]
+	static hasOne = [driver:Driver,vehicle:Vehicle]
 	//static hasMany = [incident:Incident]
     static constraints = {
-    }
+		endDate(nullable:true)
+		duration(nullable:true)
+		distanceCovered(nullable:true)
+	}
 }

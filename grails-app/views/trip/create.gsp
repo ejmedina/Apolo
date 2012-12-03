@@ -95,13 +95,7 @@
                                     <g:datePicker name="endDate" precision="day" value="${tripInstance?.endDate}" />
                               </p>
                         
-                           <p>
-                               
-                                    <label for="estimatedEndDate"><g:message code="trip.estimatedEndDate.label" default="Estimated End Date" />:</label>
-                                
-                               
-                                    <g:datePicker name="estimatedEndDate" precision="day" value="${tripInstance?.estimatedEndDate}" />
-                              </p>
+                       
                         
                            <p>
                                

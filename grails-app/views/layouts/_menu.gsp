@@ -5,11 +5,6 @@
 		<a href="#" class="logo left"><img
 			src="${createLinkTo(dir:'img',file:'logo.png')}" alt="google.com">
 		</a>
-		<ol class="right">
-			
-			<li class="lk-connect"><a href="/auth/linkedin">Linkedin
-					Login</a></li>
-		</ol>
 	</div>
 </header>
 <nav id="navigation" class="clearfix">
@@ -59,7 +54,6 @@
 					onBlur="if (this.value == '') {this.value='Password'; this.type='text'; this.className='text_'}"
 					class='text_' name='j_password' value="Password" /></li>
 				<li><input id="login-button" type='submit' value='Go!' /></li>
-				<li><input id="register-button" type='button' value='Sing Up' />
 				</li>
 			</form>
 		</sec:ifNotLoggedIn>

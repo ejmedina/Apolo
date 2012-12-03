@@ -13,8 +13,14 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
+			pooled = true
+			driverClassName = "com.mysql.jdbc.Driver"
+			dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
+            dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
+           // url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
+			url = "jdbc:mysql://localhost/apolo_dev?useUnicode=yes&characterEncoding=UTF-8"
+			username = "root"
+			password = "root"
         }
     }
     test {

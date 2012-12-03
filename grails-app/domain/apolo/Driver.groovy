@@ -13,6 +13,7 @@ class Driver {
 	String dni
 	String cuil
 	String status
+	static hasMany = [trip:Trip]
     static constraints = {
     }
 }

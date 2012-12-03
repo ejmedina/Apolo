@@ -30,28 +30,6 @@ $('.tooltip').tipsy({
 //	gravity: 'w',
 });
 
-//Nivo Zoom
-	$('body').nivoZoom({
-		speed:500,
-		zoomHoverOpacity:0.8,
-		overlay:false,
-		overlayColor:'#333',
-		overlayOpacity:0.5,
-		captionOpacity:0.8
-	});
-
-//Twitter
-    getTwitters('tweet', { 
-    id: 'rwasn', 
-    count: 1, 
-    enableLinks: true, 
-    ignoreReplies: true, 
-    clearContents: true,
-    withFriends: false,
-    newwindow: true,
-    template: '<h2 class="status">%text%</h2><p class="time right">%time% from <a href="http://twitter.com/%user_screen_name%">Twitter</a></p>'
-    });
-
 //Google Analytics
     var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]]; // Change UA-XXXXX-X to be your site's ID 
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;

@@ -4,7 +4,7 @@ class Vehicle {
 	long id
 	String brand
 	String model
-	String version
+//	String version
 	int year
 	int cargo
 	boolean foodAble
@@ -17,6 +17,7 @@ class Vehicle {
 	String status
 	String fuelType
 	//static hasMany = [trips:Trip,incidents:Incident]
+	static hasMany = [trip:Trip]
     static constraints = {
     }
 }

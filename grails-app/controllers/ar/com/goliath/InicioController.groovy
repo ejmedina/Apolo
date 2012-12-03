@@ -6,4 +6,7 @@ class InicioController {
         
         render(view:'index')
     }
+	def index1 = {
+    	render(view:'index1')
+	}
 }

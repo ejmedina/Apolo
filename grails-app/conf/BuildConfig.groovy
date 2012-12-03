@@ -37,7 +37,7 @@ grails.project.dependency.resolution = {
 				compile 'org.codehaus.jackson:jackson-jaxrs:1.8.5'
 				compile 'org.apache.httpcomponents:httpclient:4.1.2'
 		//		compile 'javax.mail:mail:1.4'
-		// runtime 'mysql:mysql-connector-java:5.1.20'
+		 runtime 'mysql:mysql-connector-java:5.1.20'
 	}
 
 	plugins {
